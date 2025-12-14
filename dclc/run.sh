@@ -1,0 +1,1 @@
+nohup python evaluationWithCache.py --dataset /mnt/tmp/sum/card/val_sql --model_path /mnt/tmp/sum/card/model/kernel_4K > evaluationWithCache.log &
