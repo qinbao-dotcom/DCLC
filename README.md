@@ -1,14 +1,27 @@
 # DCLC
-1、ddelta采用的是xdelta3
 
-2、rabin fingerprint 采用的是pyrabin0.6  
+Requirements
+1、ddelta employs xdelta3  
 
-3、train.py为具体训练过程
+2、Rabin fingerprinting employs pyrabin 0.6.    
 
-4、predict为利用模型进行预测
+Run
+train.py contains the specific training process.  
 
-5、finesse对应19'th FAST文章  
-    chunking为主函数
+    corpus_dir --- the address of the dataset.  
 
-6、N-transform
-   chunking为主函数
+    average_size---the chunking size  
+
+predict.py is used to perform predictions using models.
+
+    dataset---the address of the dataset. 
+
+    avg_size---the chunking size 
+
+run.sh---nohup python predict.py  
+
+finesse corresponds to the 19th FAST article  
+    The main function is chunking.  
+
+N-transform  
+   The main function is chunking.  
