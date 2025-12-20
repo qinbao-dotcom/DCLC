@@ -1,16 +1,18 @@
 # DCLC
 
 Requirements
+
 1、ddelta employs xdelta3  
 
-2、Rabin fingerprinting employs pyrabin 0.6.    
+2、Rabin fingerprinting employs pyrabin 0.6.      
 
 Run
-train.py contains the specific training process.  
 
-    corpus_dir --- the address of the dataset.  
+train.py contains the specific training process.    
 
-    average_size---the chunking size  
+    corpus_dir --- the address of the dataset.    
+
+    average_size---the chunking size    
 
 predict.py is used to perform predictions using models.
 
@@ -20,8 +22,10 @@ predict.py is used to perform predictions using models.
 
 run.sh---nohup python predict.py  
 
-finesse corresponds to the 19th FAST article  
-    The main function is chunking.  
+finesse corresponds to the 19th FAST article    
+   
+    The main function is chunking.    
 
 N-transform  
-   The main function is chunking.  
+  
+   The main function is chunking.    
